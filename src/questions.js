@@ -273,8 +273,8 @@ let questions = [
       a: "1",
       b: "2",
       c: "3",
-      d: "Any number",
-      correct: "b"
+      d: "Any number less than or equal to 2",
+      correct: "d"
     },
     {
       question: "Which traversal uses recursion and a stack implicitly?",
@@ -318,7 +318,7 @@ let questions = [
       },
       {
         question: "In a heap, the parent node is always:",
-        a: "Smaller than children in max-heap",
+        a: "Greater than children in max-heap",
         b: "Greater than children in min-heap",
         c: "Equal to all children",
         d: "None of the above",
